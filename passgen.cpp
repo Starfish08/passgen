@@ -22,6 +22,7 @@ int main() {
     cout << "What lenght ?" << endl;
     cin >> command_lenght;
     cout << "Level ?" << endl << "1 : just letters" << endl << "2 : just numbers" << endl << "3 : just special" << endl;
+    cout << "12 : letters and numbers" << endl << "23 : numbers and special" << endl << "13 : letters and special" << endl << "123 : letters, numbers ans special" << endl;
     cin >> command;
     switch (command)  {
     case 1:
@@ -33,6 +34,27 @@ int main() {
         break;
     
     case 3:
+        command_special = true;
+        break;
+    
+    case 12:
+        command_letters = true;
+        command_num =true;
+        break;
+    
+    case 23:
+        command_num = true;
+        command_special = true;
+        break;
+
+    case 13:
+        command_letters = true;
+        command_special = true;
+        break;
+    
+    case 123:
+        command_letters = true;
+        command_num = true;
         command_special = true;
         break;
 
