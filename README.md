@@ -9,4 +9,4 @@ Rien de plus simple !
 - Executez  
   `./passgen`
   ## Utilisation
-  vous serez guidés 
+  Vous serez guidés : 
